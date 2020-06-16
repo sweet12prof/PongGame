@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Mar 07 20:25:01 2020
+# Process ID: 12260
+# Log file: C:/Users/TI Lab/Desktop/VGA/Tutorial/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/TI Lab/Desktop/VGA/Tutorial/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/TI Lab/Desktop/VGA/Tutorial/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin R16 [get_ports {SS_Out[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {SS_Out[2]}]]
+startgroup
+set_property package_pin E14 [get_ports {SS_Out[6]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {SS_Out[5]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {SS_Out[4]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {SS_Out[2]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {SS_Out[2]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {SS_Out[1]}]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list {SS_Out[1]}]]
+startgroup
+set_property package_pin F13 [get_ports {SS_Out[1]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {SS_Out[2]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {SS_Out[0]}]
+endgroup
+save_constraints
